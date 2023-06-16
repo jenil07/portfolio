@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jenil portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,100&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Jenil's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#service">Services</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="firstsection">
+            <div class="leftsection">
+                Hello,My Name is <span class="purple">Jenil</span>
+                <div>and i am a Beginner</div>
+                <!-- <div>web Developer</div> -->
+                <span id="element"></span>
+                <div class="button">
+
+                    <a href="jenil resume.pdf" target="_blank"><button class="btn">Download Resume</button></a>
+                    <a href="https://github.com/jenil07" target="_blank"><button class="btn">Git-hub</button></a>
+
+                </div>
+            </div>
+
+            <div class="rightsection">
+                <img src="jenil.jpg" alt="">
+            </div>
+        </section>
+        <hr>
+        <!-- ---------------------------------------------------------------------ABOUT------------------------------------------------------------------------ -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="jpp.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p class="intro">Hello, My name is jenil and i am a CSE student at Government Engineering
+                            College Patan and i
+                            am a Beginner webdeveloper and i have knowledge about designing,programming.and after the
+                            description i give my skill,work experiemce and all that thing
+                        </p>
+                        <div class="tab-title">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                                <li><span>Web Development</span><br>Designing Web App Development</li>
+                                <li><span>App Development</span><br>Android App Development</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2020-2021</span><br>Design Auction-Website UI</li>
+                                <li><span>2021-2022</span><br>Designing Jan Suvidha WebApp</li>
+                                <li><span>2022-2023</span><br>MAke a Traffic controler Apk</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>12th Science</span><br>Passout with distinction</li>
+                                <li><span>Undergraduate</span><br>Computer Science & Engineering</li>
+                                <li><span>Udemy</span><br>Web Development Course</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <!-- ---------------------------------------------------------------------------SERVICES------------------------------------------------------------------->
+        <div>
+            <section id="service" class="secondsection">
+                <span class="text-gray">What i have done so far</span>
+                <h1>Work Experience</h1>
+
+                <div class="box">
+                    <div class="vertical">
+                        <img class="img-top" src="html.png" alt="">
+                        <div class="vertical-title">
+                            HTML Developer
+                        </div>
+                        <div class="vertical-desc">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium rerum distinctio itaque
+                            assumenda ipsum et amet modi quasi aliquid eos maxime earum quibusdam quod dolorem
+                            repudiandae
+                            sapiente deleniti, eius inventore.
+                        </div>
+                    </div>
+                    <div class="vertical">
+                        <img class="img-top" src="css.png" alt="">
+                        <div class="vertical-title">
+                            CSS Developer
+                        </div>
+                        <div class="vertical-desc">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium rerum distinctio itaque
+                            assumenda ipsum et amet modi quasi aliquid eos maxime earum quibusdam quod dolorem
+                            repudiandae
+                            sapiente deleniti, eius inventore.
+                        </div>
+                    </div>
+                    <div class="vertical">
+                        <img class="img-top" src="javascript.png" alt="">
+                        <div class="vertical-title">
+                            JS Developer
+                        </div>
+                        <div class="vertical-desc">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium rerum distinctio itaque
+                            assumenda ipsum et amet modi quasi aliquid eos maxime earum quibusdam quod dolorem
+                            repudiandae
+                            sapiente deleniti, eius inventore.
+                        </div>
+                    </div>
+                    <div class="vertical">
+                        <img class="img-top" src="java.png" alt="">
+                        <div class="vertical-title">
+                            JAVA Developer
+                        </div>
+                        <div class="vertical-desc">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium rerum distinctio itaque
+                            assumenda ipsum et amet modi quasi aliquid eos maxime earum quibusdam quod dolorem
+                            repudiandae
+                            sapiente deleniti, eius inventore.
+                        </div>
+                    </div>
+                    <div class="vertical">
+                        <img class="img-top" src="c.png" alt="">
+                        <div class="vertical-title">
+                            C<br> Developer
+                        </div>
+                        <div class="vertical-desc">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium rerum distinctio itaque
+                            assumenda ipsum et amet modi quasi aliquid eos maxime earum quibusdam quod dolorem
+                            repudiandae
+                            sapiente deleniti, eius inventore.
+                        </div>
+                    </div>
+
+                    <div class="vertical">
+                        <img class="img-top" src="php.png" alt="">
+                        <div class="vertical-title">
+                            PHP Developer
+                        </div>
+                        <div class="vertical-desc">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium rerum distinctio itaque
+                            assumenda ipsum et amet modi quasi aliquid eos maxime earum quibusdam quod dolorem
+                            repudiandae
+                            sapiente deleniti, eius inventore.
+                        </div>
+                    </div>
+
+
+                </div>
+            </section>
+        </div>
+        <hr>
+        <!-- -------------------------------------------------------------PORTFOLIO--------------------------------------------------------------------- -->
+        <div id="project">
+            <div class="container">
+                <h1 class="main-title">My Project</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="project-5.jpg">
+                        <div class="layer">
+                            <h3>Jan Suvidha Portal</h3>
+                            <p>THe portal gives you the scheme information and help to know about all government
+                                scheme.Use it our Website</p>
+                            <a href="#"><i class='fa fa-external-link'></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="projects-4.jpg" alt="">
+                        <div class="layer">
+                            <h3>Traffic Control Signal</h3>
+                            <p>Using THe App you can control the traffic manually and also automatically its basically
+                                traffic control app Download it</p>
+                            <a href="#"><i class='fa fa-external-link'></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="project-5.jpg" alt="">
+                        <div class="layer">
+                            <h3>Jan Suvidha Portal</h3>
+                            <p>THe portal gives you the scheme information and help to know about all government scheme.
+                                Use it our Website</p>
+                            <a href="#"><i class='fa fa-external-link'></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ---------------------------------------------------------------CONTACT--------------------------------------------------------------------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="main-title">Contact Me</h1>
+                        <p><i class="fa fa-paper-plane-o"></i>contact@example.com</p>
+                        <p><i class="fa fa-address-book"></i>01234567789</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/jenil.prajapati.777?mibextid=ZbWKwL"
+                                class="fa fa-facebook" target="_blank"></a>
+                            <a href="#" class="fa fa-twitter"></a>
+                            <a href="https://www.linkedin.com/in/jenil-prajapati-7378b524b" class="fa fa-linkedin"
+                                target="_blank"></a>
+                            <a href="https://instagram.com/jenil_o3?igshid=MzNlNGNkZWQ4Mg==" class="fa fa-instagram"
+                                target="_blank"></a>
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                        <form action="">
+                            <input type="text" name="Name" placeholder="Your name" required>
+                            <input type="email" name="email" placeholder="Your mail" required>
+                            <textarea name="Message" rows="6" placeholder="Your message" required></textarea>
+                            <button type="submit" class="bttn">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <!-- ----------------------------------------------------------------------------FOOTER-------------------------------------------------------------------->
+    <footer>
+        <div class="footer">
+            <div class="footer-rights">
+                Copyright &#169;www.jenilportfolio.com|All rights reserved
+            </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Wev developer', 'programmer', 'Web designer'],
+            typeSpeed: 50,
+
+        });
+
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+
+        function opentab(tabname) {
+
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+    </script>
+
+</body>
+
+</html>
